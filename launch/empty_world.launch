@@ -1,0 +1,7 @@
+<!-- This file is used for testing and editing world files -->
+<launch>	  
+	<include file="$(find gazebo_ros)/launch/empty_world.launch">	    
+		<!-- <arg name="world_name" value="$(find ser_assignment3)/worlds/multi_office.world"/>	     -->
+		<arg name="gui" value="true"/>	  
+	</include>	
+</launch>
